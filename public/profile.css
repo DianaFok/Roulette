@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background-image: url(img/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+td {
+  padding-left: 2rem;
+}
+
+a {
+  font-size: 2rem;
+}
+
+#top {
+  text-decoration: underline;
+}
+
+table {
+  padding: 1rem;
+  font-size: 3rem;
+}

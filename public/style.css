@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-image: url(img/bk.png);
+  background-repeat: no-repeat;
+  background-position: 0rem 10rem;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 5rem;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.input {
+  margin: 1rem;
+}
+
+#game, .colors, input, button {
+  font-size: 2rem;
+}
+
+
+#log {
+  margin-left: 50rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+td {
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+
+#top {
+  text-decoration: underline;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+img {
+  margin-top: -1rem;
+  width: 100%;
+}

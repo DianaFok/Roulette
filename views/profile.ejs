@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Roulette</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="profile.css">
+  </head>
+  <body>
+    <header>
+      <h1>Your Profile</h1>
+      <a href="/logout">Logout</a>
+    </header>
+    <section>
+        <table>
+            <tr>
+              <td id="top">Wins:</td>
+              <td id="top">Losses:</td>
+              <td id="top">Total:</td>
+            </tr>
+            <% for(var i=0; i < totals.length; i++) {%>
+              <tr>
+                <td><span><%= totals[i].wins %></span></td>
+                <td><span><%= totals[i].losses %></span></td>
+                <td><span><%= totals[i].total %></span></td>
+              </tr>
+              <% } %>
+          </table>
+      </section>
+      <script src="main.js"></script>
+    </body>
+</html>
